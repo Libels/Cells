@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".subcat">
+
+	<ImageView
+		android:id="@+id/background"
+		android:layout_width="wrap_content"
+		android:layout_height="250dp"
+		tools:srcCompat="@drawable/bakteri" />
+
+	<TextView
+		android:id="@+id/articleDesc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="240dp"
+		android:background="@color/colorPrimaryDark"
+		android:padding="5dp" />
+	<androidx.cardview.widget.CardView
+		android:layout_width="380dp"
+		android:layout_height="380dp"
+		android:layout_alignParentBottom="true"
+		android:foregroundGravity="center"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="20dp"
+		app:cardCornerRadius="10dp"
+		android:backgroundTint="@color/colorPrimaryDark">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_gravity="center"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:orientation="horizontal">
+
+				<androidx.cardview.widget.CardView
+					android:id="@+id/content1"
+					android:layout_width="wrap_content"
+					android:backgroundTint="@color/colorPrimary"
+					app:cardCornerRadius="5dp"
+					android:layout_margin="10dp"
+					android:layout_height="wrap_content">
+
+					<ImageView
+						android:id="@+id/contentPicture1"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_gravity="center"
+						android:src="@drawable/lactobacillus_acidophilus"
+						android:foreground="@drawable/rounded_fg" />
+					<TextView
+						android:id="@+id/contentSubject1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:text="lactobacillus_acidophilus" />
+				</androidx.cardview.widget.CardView>
+
+				<androidx.cardview.widget.CardView
+					android:id="@+id/content2"
+					android:backgroundTint="@color/colorPrimary"
+					android:layout_width="wrap_content"
+					app:cardCornerRadius="5dp"
+					android:layout_margin="10dp"
+					android:layout_height="wrap_content">
+
+					<ImageView
+						android:id="@+id/contentPicture2"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_gravity="center"
+						android:src="@drawable/lactobacillus_plantarum"
+						android:foreground="@drawable/rounded_fg" />
+					<TextView
+						android:id="@+id/contentSubject2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:text="lactobacillus plantarum" />
+				</androidx.cardview.widget.CardView>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:orientation="horizontal">
+
+				<androidx.cardview.widget.CardView
+					android:id="@+id/content3"
+					android:layout_width="wrap_content"
+					android:backgroundTint="@color/colorPrimary"
+					app:cardCornerRadius="5dp"
+					android:layout_margin="10dp"
+					android:layout_height="wrap_content">
+
+					<ImageView
+						android:id="@+id/contentPicture3"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_gravity="center"
+						android:src="@drawable/lactobacillus_rhamnosus"
+						android:foreground="@drawable/rounded_fg" />
+					<TextView
+						android:id="@+id/contentSubject3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:text="lactobacillus_rhamnosus" />
+				</androidx.cardview.widget.CardView>
+
+				<androidx.cardview.widget.CardView
+					android:id="@+id/content4"
+					android:backgroundTint="@color/colorPrimary"
+					android:layout_width="wrap_content"
+					app:cardCornerRadius="5dp"
+					android:layout_margin="10dp"
+					android:layout_height="wrap_content">
+
+					<ImageView
+						android:id="@+id/contentPicture4"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_gravity="center"
+						android:src="@drawable/lactobacillus_plantarum"
+						android:foreground="@drawable/rounded_fg" />
+					<TextView
+						android:id="@+id/contentSubject4"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:text="lactobacillus plantarum" />
+				</androidx.cardview.widget.CardView>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:orientation="horizontal">
+
+				<androidx.cardview.widget.CardView
+					android:id="@+id/content5"
+					android:layout_width="wrap_content"
+					android:backgroundTint="@color/colorPrimary"
+					app:cardCornerRadius="5dp"
+					android:layout_margin="10dp"
+					android:layout_height="wrap_content">
+
+					<ImageView
+						android:id="@+id/contentPicture5"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_gravity="center"
+						android:src="@drawable/lactobacillus_acidophilus"
+						android:foreground="@drawable/rounded_fg" />
+					<TextView
+						android:id="@+id/contentSubject5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:text="lactobacillus_acidophilus" />
+				</androidx.cardview.widget.CardView>
+
+				<androidx.cardview.widget.CardView
+					android:id="@+id/content6"
+					android:backgroundTint="@color/colorPrimary"
+					android:layout_width="wrap_content"
+					app:cardCornerRadius="5dp"
+					android:layout_margin="10dp"
+					android:layout_height="wrap_content">
+
+					<ImageView
+						android:id="@+id/contentPicture6"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:layout_gravity="center"
+						android:src="@drawable/lactobacillus_plantarum"
+						android:foreground="@drawable/rounded_fg" />
+					<TextView
+						android:id="@+id/contentSubject6"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:text="lactobacillus plantarum" />
+				</androidx.cardview.widget.CardView>
+
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+</RelativeLayout>
